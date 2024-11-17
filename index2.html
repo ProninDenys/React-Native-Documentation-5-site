@@ -3,118 +3,139 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React Native Documentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Francois+One&family=Farro:wght@300&family=PT+Sans:wght@400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Staatliches&family=Tourney:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style2.css" />
+    <title>React Native Documentation</title>
   </head>
   <body>
     <header class="header">
-      <div class="left-menu">
-        <a href="#" class="eng">ENG</a>
-        <a href="index.html" class="doc-link">DOCUMENTATION</a>
-        <a href="#" class="doc-link">/ WHO'S USING</a>
-      </div>
-      <div class="right-menu">
-        <a href="index.html">
-          <img src="img/company-logo-black.svg" alt="KONSTRUKT" />
-        </a>
+      <div class="container header__container">
+        <div class="logo">
+          <a href="" class="logo__link">
+            <img src="/img/company-logo-black.svg" alt="logo" />
+          </a>
+        </div>
+
+        <div class="header__container--lang-and-nav">
+          <span class="header__language">ENG</span>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="/index.html" class="navigation__link">
+                  Documentation
+                </a>
+              </li>
+              <li><p class="navigation__link">/</p></li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link"> Who's using </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
-    <div class="content">
-      <section>
-        <img src="img/divider.svg" alt="Line" class="title-divider" />
-        <h2 class="main-title" id="introduction">Who's using</h2>
-      </section>
-      <div class="card-section">
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/facebook.svg" alt="Facebook" />
+    <main class="main">
+      <div class="container">
+        <section class="section section--who's-using">
+          <h2 class="section__title">Who’s using</h2>
+
+          <div class="section__container--logos">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/facebook.svg" alt="facebook" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/facebook (1).svg" alt="facebook" />
+                </div>
+              </div>
             </div>
-            <div class="card-back">
-              <img src="img/2/facebook (1).svg" alt="Facebook Black" />
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/instagram.svg" alt="instagram" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/instagram (1).svg" alt="instagram" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/shopify (hover).svg" alt="shopify" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/shopify (hover) (1).svg" alt="shopify" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/skype.svg" alt="skype" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/skype (1).svg" alt="skype" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/pinterest.svg" alt="pinterest" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/pinterest (1).svg" alt="pinterest" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/wix.svg" alt="wix" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/wix (1).svg" alt="wix" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/saleforse.svg" alt="salesforce" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/saleforse (1).svg" alt="salesforce" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/1/soundcloud.svg" alt="soudncloud" />
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/2/soundcloud (1).svg" alt="soudncloud" />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/instagram.svg" alt="Instagram" />
-            </div>
-            <div class="card-back">
-              <img src="img/2/instagram (1).svg" alt="Instagram Black" />
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/shopify (hover).svg" alt="Shopify" />
-            </div>
-            <div class="card-back">
-              <img src="img/2/shopify (hover) (1).svg" alt="Shopify Black" />
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/skype.svg" alt="Skype" />
-            </div>
-            <div class="card-back">
-              <img src="img/2/skype (1).svg" alt="Skype Black" />
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/pinterest.svg" alt="Pinterest" />
-            </div>
-            <div class="card-back">
-              <img src="img/2/pinterest (1).svg" alt="Pinterest Black" />
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/wix.svg" alt="Wix" />
-            </div>
-            <div class="card-back">
-              <img src="img/2/wix (1).svg" alt="Wix Black" />
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/saleforse.svg" alt="Salesforce" />
-            </div>
-            <div class="card-back">
-              <img src="img/2/saleforse (1).svg" alt="Salesforce Black" />
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img/1/soundcloud.svg" alt="SoundCloud" />
-            </div>
-            <div class="card-back">
-              <img src="img/2/soundcloud (1).svg" alt="SoundCloud Black" />
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
-    </div>
+    </main>
   </body>
 </html>
